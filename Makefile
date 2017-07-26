@@ -1,5 +1,4 @@
-Project  = $(RC_ProjectName)
-Project ?= gnulibtool
+Project = libtool
 
 # Apple's libtool is not the same as GNU libtool, so we prefix a `g` to the
 # filename to avoid a conflict. Use `glibtool` and `glibtoolize`, not `libtool`.
