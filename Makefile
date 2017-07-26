@@ -6,6 +6,8 @@ Project ?= gnulibtool
 Extra_Configure_Flags = --program-prefix=g --enable-ltdl-install CC=clang
 Extra_Make_Flags = CC=clang
 Install_Prefix = /usr/local
+Install_Man = /usr/local/share/man
+Install_Info = /usr/local/share/info
 
 ifeq ($(MAKEFILEPATH),)
 $(error MAKEFILEPATH must be defined, it should have come from Xcode)
